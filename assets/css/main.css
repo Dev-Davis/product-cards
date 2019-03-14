@@ -1,0 +1,90 @@
+body {
+    background-color: black;
+    align-content: space-between;
+    /* background-image:url(https://cnet3.cbsistatic.com/img/LrVBMbJlUrDal80kV4O6PiLu-gU=/1600x900/2016/11/16/cd735b62-0bd8-421a-9f8a-f31bbb0c66c8/earthvruser-1.png); */
+}
+.card {
+    width: 400px;
+    border: 1px solid lightblue;
+    /* margin: 20px; */
+    box-shadow: 7px 7px 20px slategray;
+    margin-bottom: 20px;
+}
+.parent {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+img {
+    width: inherit;
+    max-height: 170px;
+    margin: 10px;
+    padding: 10px;
+}
+header {
+    text-align: center;
+    border-bottom: 1px solid lightblue;
+}
+.purchase {
+    background-color: darkgray;
+    color: yellow;
+    flex-basis: auto;
+}
+.vr_header {
+    font-size: 42px;
+    color: white;
+    font-family: 'Pacifico', cursive;
+}
+.head-topic {
+    font-family: 'Pacifico', cursive;
+    font-size: 40px;
+}
+p, h2, h3, h4, h5 {
+    color: white;
+    justify-content: left;
+    padding: 5px;
+    text-shadow: 1px 1px 0 skyblue;
+}
+.head {
+    text-align: center;
+}
+img:hover {
+    transform: scale(1.1);
+}
+.specifications {
+    font-weight: bold;
+}
+.footer {
+    font-size: 12px;
+}
+.description p {
+    justify-content: flex-end;
+}
+.quest {
+    object-fit: contain;
+}
+.soldOut {
+    /* position: absolute; */
+    z-index: 2;
+}
+.rift {
+    position: relative;
+    z-index: 0;
+}
+.soldOut {
+    position: absolute;
+    z-index: 1;
+    top: 330px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
